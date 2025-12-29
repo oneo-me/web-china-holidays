@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@import './theme.css';
+
+:root {
+  font-size: 14px;
+}
+
+body {
+  background-color: var(--muted);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}

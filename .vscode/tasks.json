@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run",
+      "command": "bun",
+      "args": ["run", "dev"]
+    },
+    {
+      "label": "build",
+      "command": "bun",
+      "args": ["run", "build"]
+    },
+    {
+      "label": "test",
+      "command": "bun",
+      "args": ["run", "check"]
+    }
+  ]
+}
